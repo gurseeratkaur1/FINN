@@ -1,0 +1,54 @@
+# ===== Environment & secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ===== Node.js / Next.js =====
+node_modules/
+.next/
+out/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Project data =====
+# The pre-populated demo database IS tracked (see below); other databases are not.
+*.db
+!backend/data/finn.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backend/cache/*
+!backend/cache/.gitkeep
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

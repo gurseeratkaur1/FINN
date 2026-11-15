@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4f46e5">
+  <title>FINN – Investment assistant</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Cpath d='M9 22V10h12M9 16h9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>tailwind.config = { darkMode: "media" };</script>
+  <script src="config.js"></script>
+  <style>[hidden]{display:none!important} details>summary::-webkit-details-marker{display:none} body{-webkit-tap-highlight-color:transparent}</style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+  <header class="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
+    <div class="mx-auto flex h-14 max-w-3xl items-center justify-between px-4">
+      <div class="flex items-center gap-2"><span class="grid h-8 w-8 place-items-center rounded-lg bg-indigo-600 text-sm font-black text-white">F</span><span class="text-lg font-bold tracking-tight">FINN</span></div>
+      <nav id="topnav" class="hidden gap-1 md:flex" aria-label="Main"></nav>
+    </div>
+  </header>
+  <main id="main" class="mx-auto max-w-3xl px-4 pb-28 pt-4 md:pb-10"></main>
+  <nav id="bottomnav" class="fixed inset-x-0 bottom-0 z-30 flex border-t border-slate-200 bg-white pb-[env(safe-area-inset-bottom)] dark:border-slate-800 dark:bg-slate-900 md:hidden" aria-label="Main"></nav>
+  <noscript>FINN needs JavaScript.</noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

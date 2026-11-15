@@ -1,0 +1,16 @@
+# Render Blueprint: one web service serving the API and the static frontend.
+services:
+  - type: web
+    name: finn
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.3
+      - key: GEMINI_BACKEND
+        value: gemini
+      - key: GEMINI_API_KEY
+        sync: false        # set this in the Render dashboard; never commit it

@@ -1,0 +1,28 @@
+{
+  "portfolio": [
+    { "ticker": "HDFCBANK",   "yahoo_symbol": "HDFCBANK.NS",   "name": "HDFC Bank Ltd",                    "sector": "Banking",         "cap": "large", "screener_slug": "HDFCBANK" },
+    { "ticker": "ICICIBANK",  "yahoo_symbol": "ICICIBANK.NS",  "name": "ICICI Bank Ltd",                   "sector": "Banking",         "cap": "large", "screener_slug": "ICICIBANK" },
+    { "ticker": "FEDERALBNK", "yahoo_symbol": "FEDERALBNK.NS", "name": "The Federal Bank Ltd",             "sector": "Banking",         "cap": "mid",   "screener_slug": "FEDERALBNK" },
+    { "ticker": "TCS",        "yahoo_symbol": "TCS.NS",        "name": "Tata Consultancy Services Ltd",    "sector": "IT",              "cap": "large", "screener_slug": "TCS" },
+    { "ticker": "INFY",       "yahoo_symbol": "INFY.NS",       "name": "Infosys Ltd",                      "sector": "IT",              "cap": "large", "screener_slug": "INFY" },
+    { "ticker": "PERSISTENT", "yahoo_symbol": "PERSISTENT.NS", "name": "Persistent Systems Ltd",           "sector": "IT",              "cap": "mid",   "screener_slug": "PERSISTENT" },
+    { "ticker": "SUNPHARMA",  "yahoo_symbol": "SUNPHARMA.NS",  "name": "Sun Pharmaceutical Industries Ltd", "sector": "Pharma",         "cap": "large", "screener_slug": "SUNPHARMA" },
+    { "ticker": "CAPLIPOINT", "yahoo_symbol": "CAPLIPOINT.NS", "name": "Caplin Point Laboratories Ltd",    "sector": "Pharma",          "cap": "small", "screener_slug": "CAPLIPOINT" },
+    { "ticker": "MARUTI",     "yahoo_symbol": "MARUTI.NS",     "name": "Maruti Suzuki India Ltd",          "sector": "Auto",            "cap": "large", "screener_slug": "MARUTI" },
+    { "ticker": "ASHOKLEY",   "yahoo_symbol": "ASHOKLEY.NS",   "name": "Ashok Leyland Ltd",                "sector": "Auto",            "cap": "mid",   "screener_slug": "ASHOKLEY" },
+    { "ticker": "HINDUNILVR", "yahoo_symbol": "HINDUNILVR.NS", "name": "Hindustan Unilever Ltd",           "sector": "FMCG",            "cap": "large", "screener_slug": "HINDUNILVR" },
+    { "ticker": "BIKAJI",     "yahoo_symbol": "BIKAJI.NS",     "name": "Bikaji Foods International Ltd",   "sector": "FMCG",            "cap": "small", "screener_slug": "BIKAJI" },
+    { "ticker": "RELIANCE",   "yahoo_symbol": "RELIANCE.NS",   "name": "Reliance Industries Ltd",          "sector": "Energy",          "cap": "large", "screener_slug": "RELIANCE" },
+    { "ticker": "NTPC",       "yahoo_symbol": "NTPC.NS",       "name": "NTPC Ltd",                         "sector": "Power (PSU)",     "cap": "large", "screener_slug": "NTPC" },
+    { "ticker": "TATASTEEL",  "yahoo_symbol": "TATASTEEL.NS",  "name": "Tata Steel Ltd",                   "sector": "Metals",          "cap": "large", "screener_slug": "TATASTEEL" },
+    { "ticker": "LT",         "yahoo_symbol": "LT.NS",         "name": "Larsen & Toubro Ltd",              "sector": "Infrastructure",  "cap": "large", "screener_slug": "LT" },
+    { "ticker": "NCC",        "yahoo_symbol": "NCC.NS",        "name": "NCC Ltd",                          "sector": "Infrastructure",  "cap": "small", "screener_slug": "NCC" },
+    { "ticker": "SUZLON",     "yahoo_symbol": "SUZLON.NS",     "name": "Suzlon Energy Ltd",                "sector": "Capital Goods",   "cap": "mid",   "screener_slug": "SUZLON" }
+  ],
+  "research_demo": [
+    { "ticker": "RELIANCE",   "yahoo_symbol": "RELIANCE.NS",   "name": "Reliance Industries Ltd",          "sector": "Energy",          "cap": "large", "screener_slug": "RELIANCE" },
+    { "ticker": "TCS",        "yahoo_symbol": "TCS.NS",        "name": "Tata Consultancy Services Ltd",    "sector": "IT",              "cap": "large", "screener_slug": "TCS" },
+    { "ticker": "ITC",        "yahoo_symbol": "ITC.NS",        "name": "ITC Ltd",                          "sector": "FMCG",            "cap": "large", "screener_slug": "ITC" },
+    { "ticker": "BAJFINANCE", "yahoo_symbol": "BAJFINANCE.NS", "name": "Bajaj Finance Ltd",                "sector": "NBFC",            "cap": "large", "screener_slug": "BAJFINANCE" }
+  ]
+}
