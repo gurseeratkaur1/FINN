@@ -474,6 +474,4 @@ cost reports for it are approximate until checked against official rates. Not ye
 - **Hosting caveats:** free hosts have ephemeral disks (live-generated research and settings reset on redeploy); NSE/BSE/Screener may
   block cloud IPs; bundled prices end 13 Nov 2026 and price alerts treat data older than 5 days as stale. None of the deploy steps
   were executed by the author, since there is no Render/Vercel account in this environment.
-- **Build logs:** Claude Code transcripts are copied to `ai-build-logs/` with API keys (the literal values from `.env` plus key-shaped
-  strings) and the user's email address replaced by `[REDACTED]`. Local file paths (including the Windows user name) and tool output remain.
 - Removed the unused empty `app/` folder (leftover from the planned Next.js app).

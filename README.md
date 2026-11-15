@@ -138,7 +138,6 @@ backend/
   pipeline/          classify, results_extract, mgmt_change, alerts, research, pdf_utils
   cache/             downloaded PDFs and raw API responses (git-ignored)
 frontend/            index.html, config.js, js/ (today, research, chat, app)
-ai-build-logs/       Claude Code session transcripts for this build (keys redacted)
 DECISIONS.md         every technical decision and its reasoning
 DEPLOY_AND_SUBMIT.md handoff and submission guide
 ```

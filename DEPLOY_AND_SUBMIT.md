@@ -68,8 +68,6 @@ If Today and Research load but Ask FINN fails, the usual cause is a missing or w
 ## 4. Before you submit
 - Read the **Engineering trade-offs and known limitations** section of `README.md`. Be ready to talk about them.
 - Skim `DECISIONS.md`; it records why each choice was made and what went wrong along the way.
-- `ai-build-logs/` contains the Claude Code session transcripts from the build. API keys and the author's email address
-  were redacted automatically, but skim the folder for anything else you don't want public before pushing.
 - Free-tier warning: anyone who has your URL can use your Gemini quota. Share the link only with the people who need it, or take the service down after review.
 
 ## 5. Submission email template
@@ -99,7 +97,7 @@ If Today and Research load but Ask FINN fails, the usual cause is a missing or w
 > and the data sources are scraped, so live refresh from a cloud server may be blocked (the repo ships a pre-populated database for this reason).
 > There is no authentication, so it is a single-user demo.
 >
-> `DECISIONS.md` documents every technical decision, and `ai-build-logs/` contains the AI-assisted build transcripts.
+> `DECISIONS.md` documents every technical decision.
 >
 > Thank you for your time.
 > [Your Name]
