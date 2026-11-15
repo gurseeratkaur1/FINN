@@ -6,6 +6,7 @@ Each file is a snapshot taken at the time of the final commit, so the last few m
 
 ## Who ran these sessions
 The product plan, the step-by-step prompts and the decisions to approve or change course came from the submitting
-candidate. The Claude Code sessions themselves were run on a friend's machine and account, because the candidate
-was working through several assessments at once. The local paths and the first-person "I" in the transcripts are the
-friend's environment, relaying the candidate's prompts. The candidate then deployed and tested the result.
+candidate. The Claude Code sessions ran on the candidate's own Claude account and plan, operated from a friend's
+computer, because the candidate was working through several assessments at once. The local paths and Git
+username in the transcripts belong to that computer, not to the candidate's. The candidate then deployed and
+tested the result.
